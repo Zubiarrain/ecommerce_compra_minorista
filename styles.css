@@ -60,8 +60,14 @@ p {
     margin: 30px;
     margin-bottom: 20px;
     box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.information {
+    margin-bottom: 30px;
 }
 .precioProducto {
+    position: absolute;
+    bottom: 0;
     font-weight: 700;
 }
 .boton-agregar {
